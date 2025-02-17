@@ -2,6 +2,7 @@ Project Tema Manajemen Gudang, progress materi Array dan Struct.
 Source code : 
 
 
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -18,7 +19,7 @@ int main() {
     Barang gudang[max_barang];
     int totalBarang = 0;
     int pilihan;
-
+    
     do {
         cout << "\nMenu Manajemen Gudang : "<< endl;
         cout << "1. Input Barang"<< endl;
